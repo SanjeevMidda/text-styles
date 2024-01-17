@@ -1,0 +1,50 @@
+* {
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  transition: all 1s;
+}
+
+.App {
+  display: flex;
+  height: 100dvh;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+input {
+  background: white;
+  border: white;
+  outline: none;
+  color: rgb(170, 170, 170);
+}
+
+.stylingContainer {
+  border-top: 1px solid rgb(192, 192, 192);
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  position: absolute;
+  bottom: 0px;
+}
+
+.color {
+  display: flex;
+  gap: 10px;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid rgb(192, 192, 192);
+  border-radius: 20px;
+}
+
+.size {
+  display: flex;
+  gap: 10px;
+}
+
+.additional {
+  display: flex;
+  gap: 10px;
+}
